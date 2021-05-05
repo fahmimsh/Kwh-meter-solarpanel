@@ -1,0 +1,2 @@
+keypad_4x4.c:38:6:keypad_init	24	static
+keypad_4x4.c:64:6:keypad_get_key_value	16	static
