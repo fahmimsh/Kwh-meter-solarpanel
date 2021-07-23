@@ -341,6 +341,7 @@ int main(void)
 		  V_SampleCount = V_SampleCount + 1;
 		  V_Last = HAL_GetTick();
 	  }
+
 	  if (V_SampleCount == 1000){
 		  offset_V_Mean = V_SampleSumOffset/V_SampleCount; //rata rata tegangan
 		  V_Mean = V_SampleSum/V_SampleCount;
